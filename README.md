@@ -4,6 +4,11 @@ This is a Python library that includes the following:
 2. Binary.py:               binary manipulation and conversion datatype
 3. SymmetricEncryptor.py:   home-brew encryptor class 
 
+## Notices/Disclaimers/Warnings:
+- This is a work in progress, so there are likely some bugs left in the code. Please let me know about these and any suggestions you may have so that I can improve the code.
+- I have had little to no formal training in encryption. Please DO NOT assume the algorithms I have supplied in SymmetricEncryptor and use in encrypt.py are proven to be reversable and hard to crack
+- If you add stages to SymmetricEncryptor, please note that if done incorrectly, you may inadvertently expose the password or other information that may be used to break all stages of encryption (Although I do encourage you to play around with your own encryption stages).
+
 ## Encrypt.py Commands and aliases: 
 
 ### `help`
